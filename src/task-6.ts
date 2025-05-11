@@ -35,6 +35,6 @@ console.log(getFirstElement<string>(["a", "b", "c"])); // OK, тип `string`
 console.log(getFirstElement<boolean>([true, false, true])); // OK, тип `boolean`
 
 
-getFirstElement<number>(["a", "b"]);  // Помилка: string не можна призначити number
-console.log(getFirstElement<number>(["a", "b"])); //але console.log відпрацює, бо TS працює тільки на етапі розробки
+// getFirstElement<number>(["a", "b"]);  // Помилка: string не можна призначити number
+// console.log(getFirstElement<number>(["a", "b"])); //але console.log відпрацює, бо TS працює тільки на етапі розробки
 
